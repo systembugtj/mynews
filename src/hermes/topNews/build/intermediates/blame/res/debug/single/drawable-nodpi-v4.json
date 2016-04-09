@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/systembug/workspace/project/github/mynews/src/hermes/topNews/build/intermediates/res/merged/debug/drawable-nodpi-v4/icon.png",
+        "source": "/Users/systembug/workspace/project/github/mynews/src/hermes/topNews/src/main/res/drawable-nodpi/icon.png"
+    },
+    {
+        "merged": "/Users/systembug/workspace/project/github/mynews/src/hermes/topNews/build/intermediates/res/merged/debug/drawable-nodpi-v4/transparent.9.png",
+        "source": "/Users/systembug/workspace/project/github/mynews/src/hermes/topNews/src/main/res/drawable-nodpi/transparent.9.png"
+    },
+    {
+        "merged": "/Users/systembug/workspace/project/github/mynews/src/hermes/topNews/build/intermediates/res/merged/debug/drawable-nodpi-v4/top_popu_right_up.9.png",
+        "source": "/Users/systembug/workspace/project/github/mynews/src/hermes/topNews/src/main/res/drawable-nodpi/top_popu_right_up.9.png"
+    }
+]

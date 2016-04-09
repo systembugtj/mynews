@@ -2,7 +2,6 @@ package com.topnews.app;
 
 import java.io.File;
 
-import com.nostra13.universalimageloader.cache.disc.impl.UnlimitedDiscCache;
 import com.nostra13.universalimageloader.cache.disc.naming.Md5FileNameGenerator;
 import com.nostra13.universalimageloader.core.ImageLoader;
 import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
@@ -65,7 +64,6 @@ public class AppApplication extends Application {
 				//.discCacheFileNameGenerator(new HashCodeFileNameGenerator())//将保存的时候的URI名称用HASHCODE加密
 				.tasksProcessingOrder(QueueProcessingType.LIFO)
 				//.discCacheFileCount(100) //缓存的File数量
-				.discCache(new UnlimitedDiscCache(cacheDir))//自定义缓存路径
 				//.defaultDisplayImageOptions(DisplayImageOptions.createSimple())
 				//.imageDownloader(new BaseImageDownloader(context, 5 * 1000, 30 * 1000)) // connectTimeout (5 s), readTimeout (30 s)超时时间
 				.writeDebugLogs() // Remove for release app
