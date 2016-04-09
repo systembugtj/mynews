@@ -1,3 +1,5 @@
+Fork from https://github.com/Rano1/TopNews
+
 TopNews （今日头条 android客户端）
 =======
 
