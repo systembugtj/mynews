@@ -1,1 +1,6 @@
 src/hermes/.idea
+src/hermes/.gradle
+src/hermes/topNews/build
+src/hermes/slidingmenu/build
+src/hermes/build
+src/hermes/app/build
