@@ -1,4 +1,4 @@
-package com.topnews.view.imageshow;
+package me.systembug.view.imageshow;
 
 
 import android.content.Context;
@@ -6,8 +6,6 @@ import android.graphics.PointF;
 import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.view.View;
-import android.widget.ImageView;
 
 public class ImageShowViewPager extends ViewPager {
 	PointF last;

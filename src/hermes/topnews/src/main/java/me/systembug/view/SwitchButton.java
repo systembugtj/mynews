@@ -1,6 +1,4 @@
-package com.topnews.view;
-
-import com.topnews.R;
+package me.systembug.view;
 
 import android.content.Context;
 import android.content.res.ColorStateList;
@@ -23,6 +21,8 @@ import android.view.ViewConfiguration;
 import android.view.View.MeasureSpec;
 import android.view.accessibility.AccessibilityEvent;
 import android.widget.CompoundButton;
+
+import me.systembug.view.topnews.R;
 
 public class SwitchButton extends CompoundButton {
 	private static final int TOUCH_MODE_IDLE = 0;

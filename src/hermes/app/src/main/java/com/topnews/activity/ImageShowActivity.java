@@ -10,7 +10,7 @@ import android.widget.TextView;
 import com.topnews.R;
 import com.topnews.adapter.ImagePagerAdapter;
 import com.topnews.base.BaseActivity;
-import com.topnews.view.imageshow.ImageShowViewPager;
+import me.systembug.view.imageshow.ImageShowViewPager;
 
 /*
  * 图片展示

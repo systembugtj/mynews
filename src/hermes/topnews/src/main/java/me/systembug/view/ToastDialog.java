@@ -1,4 +1,4 @@
-package com.topnews.view;
+package me.systembug.view;
 
 import android.R;
 import android.app.Dialog;

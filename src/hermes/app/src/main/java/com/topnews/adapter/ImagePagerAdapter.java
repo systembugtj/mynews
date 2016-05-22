@@ -9,8 +9,8 @@ import com.nostra13.universalimageloader.core.assist.FailReason;
 import com.nostra13.universalimageloader.core.listener.ImageLoadingListener;
 import com.topnews.R;
 import com.topnews.tool.Options;
-import com.topnews.view.imageshow.ImageShowViewPager;
-import com.topnews.view.imageshow.TouchImageView;
+import me.systembug.view.imageshow.ImageShowViewPager;
+import me.systembug.view.imageshow.TouchImageView;
 
 
 import android.content.Context;

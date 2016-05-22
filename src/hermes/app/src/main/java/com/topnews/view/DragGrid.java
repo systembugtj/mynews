@@ -3,7 +3,7 @@ package com.topnews.view;
 
 import com.topnews.R;
 import com.topnews.adapter.DragAdapter;
-import com.topnews.tool.DataTools;
+import me.systembug.tool.DataTools;
 
 import android.content.Context;
 import android.graphics.Bitmap;

@@ -1,12 +1,10 @@
-package com.topnews.tool;
+package me.systembug.tool;
 
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.Date;
 
 import android.text.TextUtils;
-import android.util.Log;
+
 /*
  * 时间工具类
  */

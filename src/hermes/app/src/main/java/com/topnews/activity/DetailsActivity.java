@@ -25,7 +25,7 @@ import com.topnews.R;
 import com.topnews.base.BaseActivity;
 import com.topnews.bean.NewsEntity;
 import com.topnews.service.NewsDetailsService;
-import com.topnews.tool.DateTools;
+import me.systembug.tool.DateTools;
 
 @SuppressLint("JavascriptInterface")
 public class DetailsActivity extends BaseActivity {

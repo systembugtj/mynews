@@ -9,7 +9,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 import com.topnews.R;
 import com.topnews.bean.NewsEntity;
 import com.topnews.tool.Constants;
-import com.topnews.tool.DateTools;
+import me.systembug.tool.DateTools;
 import com.topnews.tool.Options;
 import com.topnews.view.HeadListView;
 

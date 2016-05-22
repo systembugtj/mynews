@@ -13,7 +13,10 @@ import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu.OnClosedListener;
 import com.topnews.R;
 import com.topnews.activity.SettingsActivity;
-/** 
+
+import me.systembug.view.SwitchButton;
+
+/**
  * 自定义SlidingMenu 测拉菜单类
  * */
 public class DrawerView implements OnClickListener{

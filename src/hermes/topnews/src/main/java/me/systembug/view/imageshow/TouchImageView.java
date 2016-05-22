@@ -1,4 +1,4 @@
-package com.topnews.view.imageshow;
+package me.systembug.view.imageshow;
 
 import java.lang.ref.WeakReference;
 import java.util.Timer;
@@ -17,11 +17,8 @@ import android.util.FloatMath;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.view.View;
-import android.view.View.MeasureSpec;
-import android.view.View.OnClickListener;
-import android.view.View.OnTouchListener;
 import android.widget.ImageView;
-import android.widget.ImageView.ScaleType;
+
 /**
  * ImageView
  */

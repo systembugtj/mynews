@@ -1,4 +1,4 @@
-package com.topnews.view.imageshow;
+package me.systembug.view.imageshow;
 
 import android.view.MotionEvent;
 

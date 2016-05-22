@@ -29,6 +29,12 @@
         </activity>
         <activity android:name=".activity.DetailsActivity" >
         </activity>
+        <activity android:name=".activity.ChannelActivity" >
+        </activity>
+        <activity android:name=".activity.CityListActivity" >
+        </activity>
+        <activity android:name=".activity.ImageShowActivity" >
+        </activity>
     </application>
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />

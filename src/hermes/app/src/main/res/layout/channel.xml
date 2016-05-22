@@ -4,7 +4,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@color/subscribe_activity_bg" >
-    <include
+
+    <include
         android:id="@+id/title_bar"
         layout="@layout/title_bar" />
 
