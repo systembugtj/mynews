@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -39,7 +40,7 @@ import me.systembug.view.ColumnHorizontalScrollView;
  * author:RA
  * blog : http://blog.csdn.net/vipzjyno1/
  */
-public class MainActivity extends FragmentActivity {
+public class MainActivity extends AppCompatActivity {
 	/** 自定义HorizontalScrollView */
 	private ColumnHorizontalScrollView mColumnHorizontalScrollView;
 	LinearLayout mRadioGroup_content;

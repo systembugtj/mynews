@@ -2,6 +2,7 @@ package com.topnews.view;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.support.v7.widget.SwitchCompat;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.CompoundButton;
@@ -14,15 +15,13 @@ import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu.OnClosedListener;
 import com.topnews.R;
 import com.topnews.activity.SettingsActivity;
 
-import me.systembug.view.SwitchButton;
-
 /**
  * 自定义SlidingMenu 测拉菜单类
  * */
 public class DrawerView implements OnClickListener{
 	private final Activity activity;
 	SlidingMenu localSlidingMenu;
-	private SwitchButton night_mode_btn;
+	private SwitchCompat night_mode_btn;
 	private TextView night_mode_text;
 	private RelativeLayout setting_btn;
 	public DrawerView(Activity activity) {
@@ -62,7 +61,7 @@ public class DrawerView implements OnClickListener{
 	}
 
 	private void initView() {
-		night_mode_btn = (SwitchButton)localSlidingMenu.findViewById(R.id.night_mode_btn);
+		night_mode_btn = (SwitchCompat) localSlidingMenu.findViewById(R.id.night_mode_btn);
 		night_mode_text = (TextView)localSlidingMenu.findViewById(R.id.night_mode_text);
 		night_mode_btn.setOnCheckedChangeListener(new OnCheckedChangeListener() {
 			
