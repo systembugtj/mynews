@@ -22,7 +22,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import com.topnews.R;
-import com.topnews.base.BaseActivity;
+import me.systembug.activity.BaseActivity;
 import com.topnews.bean.NewsEntity;
 import com.topnews.service.NewsDetailsService;
 import me.systembug.tool.DateTools;

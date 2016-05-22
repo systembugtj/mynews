@@ -1,14 +1,12 @@
 package com.topnews.activity;
 
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.TextView;
 
 import com.topnews.R;
-import com.topnews.base.BaseActivity;
+import me.systembug.activity.BaseActivity;
 
 public class SettingsActivity extends BaseActivity implements OnClickListener{
 	TextView title;

@@ -384,9 +384,7 @@
 
     <color name="list_city_category_hint_text">#ff999999</color>
     <color name="list_city_category_hint_text_night">#ff505050</color>
-    <color name="list_city_item_text">#ff444444</color>
 
-    <item name="list_city_item_text_night" type="color">@color/default_text_night</item>
 
     <color name="list_city_item_divider_up">#ffcacaca</color>
     <color name="list_city_item_divider_down">#ffffffff</color>

@@ -5,15 +5,10 @@
     android:layout_height="fill_parent"
     android:background="@color/activity_bg_color" >
 
-    <include
-        android:id="@id/title_bar"
-        layout="@layout/title_bar" />
-
     <me.systembug.view.HeadListView
         android:id="@+id/cityListView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@id/title_bar"
         android:divider="@android:color/transparent"
         android:dividerHeight="0dp"
         android:fadingEdge="none"

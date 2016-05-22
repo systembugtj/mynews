@@ -1,4 +1,4 @@
-package com.topnews.activity;
+package me.systembug.activity;
 
 import java.util.ArrayList;
 
@@ -9,15 +9,14 @@ import android.widget.AdapterView;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemClickListener;
 
-import com.topnews.R;
-import com.topnews.adapter.CityAdapter;
-import com.topnews.base.BaseActivity;
-import com.topnews.bean.CityEntity;
-import com.topnews.tool.Constants;
-import com.topnews.view.HeadListView;
+import me.systembug.adapter.CityAdapter;
+import me.systembug.constant.Citys;
+import me.systembug.entity.CityEntity;
+
+import me.systembug.view.HeadListView;
+import me.systembug.view.topnews.R;
 
 public class CityListActivity extends BaseActivity {
-	private TextView title;
 	private HeadListView mListView;
 	private ArrayList<CityEntity> cityList;
 	private CityAdapter mAdapter;
@@ -25,19 +24,17 @@ public class CityListActivity extends BaseActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.city);
+		setContentView(R.layout.activity_city);
 		initView();
 		initData();
 	}
 	
 	private void initView() {
-		title = (TextView) findViewById(R.id.title);
 		mListView = (HeadListView)findViewById(R.id.cityListView);
 	}
 	
 	private void initData() {
-		title.setText("当前城市-杭州");
-		cityList = Constants.getCityList();
+		cityList = Citys.getCityList();
 		mAdapter = new CityAdapter(this, cityList);
 		mListView.setAdapter(mAdapter);
 		mListView.setOnScrollListener(mAdapter);

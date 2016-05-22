@@ -1,4 +1,4 @@
-package com.topnews.view;
+package me.systembug.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

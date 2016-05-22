@@ -1,12 +1,12 @@
-package com.topnews.adapter;
+package me.systembug.adapter;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import com.topnews.R;
-import com.topnews.bean.CityEntity;
-import com.topnews.view.HeadListView;
+import me.systembug.entity.CityEntity;
+import me.systembug.view.HeadListView;
+import me.systembug.view.topnews.R;
 
 
 import android.content.Context;

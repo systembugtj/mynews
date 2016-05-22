@@ -74,7 +74,7 @@
                 android:layout_marginLeft="10.0dip"
                 android:text="@string/subscribe_more_category" />
 
-            <com.topnews.view.OtherGridView
+            <me.systembug.view.OtherGridView
                 android:id="@+id/otherGridView"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"

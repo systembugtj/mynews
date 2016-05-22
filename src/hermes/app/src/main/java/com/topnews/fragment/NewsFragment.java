@@ -2,13 +2,13 @@ package com.topnews.fragment;
 
 import java.util.ArrayList;
 
-import com.topnews.activity.CityListActivity;
+import me.systembug.activity.CityListActivity;
 import com.topnews.activity.DetailsActivity;
 import com.topnews.R;
 import com.topnews.adapter.NewsAdapter;
 import com.topnews.bean.NewsEntity;
 import com.topnews.tool.Constants;
-import com.topnews.view.HeadListView;
+import me.systembug.view.HeadListView;
 
 import android.app.Activity;
 import android.content.Intent;

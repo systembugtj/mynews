@@ -6,11 +6,11 @@ import com.topnews.R;
 import com.topnews.adapter.DragAdapter;
 import com.topnews.adapter.OtherAdapter;
 import com.topnews.app.AppApplication;
-import com.topnews.base.BaseActivity;
+import me.systembug.activity.BaseActivity;
 import com.topnews.bean.ChannelItem;
 import com.topnews.bean.ChannelManage;
 import com.topnews.view.DragGrid;
-import com.topnews.view.OtherGridView;
+import me.systembug.view.OtherGridView;
 
 import android.os.Bundle;
 import android.os.Handler;

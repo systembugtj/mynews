@@ -31,7 +31,7 @@
         </activity>
         <activity android:name=".activity.ChannelActivity" >
         </activity>
-        <activity android:name=".activity.CityListActivity" >
+        <activity android:name="me.systembug.activity.CityListActivity" >
         </activity>
         <activity android:name=".activity.ImageShowActivity" >
         </activity>

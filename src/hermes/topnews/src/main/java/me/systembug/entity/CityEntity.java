@@ -1,4 +1,4 @@
-package com.topnews.bean;
+package me.systembug.entity;
 
 import java.io.Serializable;
 

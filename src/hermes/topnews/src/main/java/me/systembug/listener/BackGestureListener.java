@@ -1,8 +1,7 @@
-package com.topnews.listener;
+package me.systembug.listener;
 
-import com.topnews.base.BaseActivity;
+import me.systembug.activity.BaseActivity;
 
-import android.app.Activity;
 import android.view.GestureDetector.OnGestureListener;
 import android.view.MotionEvent;
 /**

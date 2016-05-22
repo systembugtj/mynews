@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_text">#ff454545</color>
+    <color name="default_text_night">#ff747474</color>
+
+    <color name="list_city_item_text">#ff444444</color>
+    <item name="list_city_item_text_night" type="color">@color/default_text_night</item>
+
+    <color name="activity_bg_color">#fff5f5f5</color>
+    <color name="activity_bg_color_night">#ff1a1a1a</color>
+</resources>

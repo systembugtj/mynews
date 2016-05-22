@@ -11,7 +11,7 @@ import com.topnews.bean.NewsEntity;
 import com.topnews.tool.Constants;
 import me.systembug.tool.DateTools;
 import com.topnews.tool.Options;
-import com.topnews.view.HeadListView;
+import me.systembug.view.HeadListView;
 
 
 import android.app.Activity;
