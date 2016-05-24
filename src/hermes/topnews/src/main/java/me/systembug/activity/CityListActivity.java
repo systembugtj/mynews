@@ -3,6 +3,7 @@ package me.systembug.activity;
 import java.util.ArrayList;
 
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.AdapterView;
@@ -20,6 +21,8 @@ public class CityListActivity extends BaseActivity {
 	private HeadListView mListView;
 	private ArrayList<CityEntity> cityList;
 	private CityAdapter mAdapter;
+
+	Toolbar mToolbar;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -31,6 +34,8 @@ public class CityListActivity extends BaseActivity {
 	
 	private void initView() {
 		mListView = (HeadListView)findViewById(R.id.cityListView);
+		mToolbar = (Toolbar)findViewById(R.id.toolbar);
+		setSupportActionBar(mToolbar);
 	}
 	
 	private void initData() {

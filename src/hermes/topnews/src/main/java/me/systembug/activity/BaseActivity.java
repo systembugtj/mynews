@@ -3,13 +3,14 @@ package me.systembug.activity;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 
 import me.systembug.listener.BackGestureListener;
 
-public class BaseActivity extends Activity {
+public class BaseActivity extends AppCompatActivity {
 
 	/** 手势监听 */
 	GestureDetector mGestureDetector;

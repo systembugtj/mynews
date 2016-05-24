@@ -3,10 +3,10 @@ package com.topnews.activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.KeyEvent;
 import android.view.Menu;
@@ -79,9 +79,11 @@ public class MainActivity extends AppCompatActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
+		setContentView(R.layout.activity_main);
 		mScreenWidth = BaseTools.getWindowsWidth(this);
 		mItemWidth = mScreenWidth / 7;// 一个Item宽度为屏幕的1/7
+
+		//setSupportActionBar((Toolbar)findViewById(R.id.toolbar));
 		initView();
 		initSlidingMenu();
 	}
